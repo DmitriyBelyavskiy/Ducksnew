@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DuksLake</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body oncopy="return false">
+
+    <div class="bg">
+        <div class="bg__logo">
+            <img id="bg"  class="logo_white" src="img/logo_white.png" oncontextmenu="return false;" alt="logo">
+            <div id="main__btn" class="bg-btn main__btn">
+                <button class="button" type="submit">Отримати презентацію</button>
+            </div>
+        </div>
+        <video class="video__bg" src="img/утка_отцентровка.mp4" loop autoplay muted></video>
+    </div>
+    <div id="duck" class="popup">
+        <div id="close__pop" class="close__pop">
+            <img src="img/close.svg" alt="">
+        </div>
+        <div class="poup-content">
+            <h3 class="poup__title">DUK`S LAKE БІЗНЕС КУРОРТ</h3>
+            <h1 class="poup__subtitle">Ducks lake - <br>
+                це перша набережна у Львовi</h1>
+            <form id="form" class="poup-form js-form">
+
+                <div class="popup-form__item">
+                    <input id="name" class="input input__name " autocomplete="off" type="text" name="name" required>
+                    <span>
+                        Ваше ім’я
+                    </span>
+                    <p class="form__warning js-warning">
+                    </p>
+                </div>
+                <div class="popup-form__item">
+                    <input id="phone" class="input input__tel" autocomplete="off" type="tel" name="phone" required>
+                    <span>
+                       Номер телефону
+                    </span>
+                </div>
+                <div class="bg-btn form-btn">
+                    <button class="button js-form-submit" type="submit" disabled>Отримати презентацію</button>
+                </div>
+            </form>
+            <div class="poup-body__footer">
+                <div class="poup-body__footer-content">
+                     <div class="poup-body__footer-item">
+                        <p class="poup-body__footer-name">Зв’язатись з нами:</p>
+                        <a href="tel:+380676768800" class="poup-body__footer-phone">+38(067)-676-88-00</a>
+                    </div>
+                    <div class="poup-body__footer-contacts">
+                        <p class="poup-body__footer-name name-social">Ми у соц. мережах:</p>
+                        <div class="poup-body__footer-social">
+                            <a href="#" target="_blank" class="popup__links"><img src="img/inst.svg" alt="instagram"
+                                    class="poup-body__footer-img"></a>
+                                    <a href="#" target="_blank" class="popup__links"><img src="img/face.svg" alt="instagram"
+                                        class="poup-body__footer-img facebook-img "></a>
+                           
+                    </div>
+                   
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <footer class="footer">
+		<div class="overlay js-overlay-thank-you">
+			<div class="popup js-thank-you">
+				<h2>Спасибо за заявку</h2>
+				<div class="close-popup js-close-thank-you"></div>
+			</div>
+		</div>
+	</footer>
+
+
+
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="js/jquery.inputmask.min.js"></script>
+<script src="js/main.js"></script>
+
+
+</html>
